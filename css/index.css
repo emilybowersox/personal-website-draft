@@ -1,0 +1,36 @@
+
+#cloud-pic {
+    display: block;
+    z-index: -1;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    width: 100%
+}
+
+
+#welcome {
+    display: flex;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 4em;
+    font-size: 5em;
+
+}
+
+#enter-button {
+    /*justify-content: center;*/
+    display: flex;
+    text-align: center;
+    margin: 1em auto 30em auto;
+
+}
+
+#audio {
+    display: flex;
+    align-items: flex-end;
+
+
+}
