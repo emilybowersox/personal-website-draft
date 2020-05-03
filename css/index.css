@@ -23,13 +23,13 @@
 #enter-button {
     /*justify-content: center;*/
     display: flex;
-    text-align: center;
+    justify-content: center;
     margin: 1em auto 30em auto;
 
 }
 
 #audio {
-    display: flex;
+    display: none;
     align-items: flex-end;
 
 
