@@ -5,11 +5,12 @@
     left: 0px;
     top: 0px;
     position: absolute;
-    width: 100%
+    width: 100%;
+    opacity: 0.7;
 }
 
 
-#welcome {
+#name-header {
     display: flex;
     color: white;
     justify-content: center;
@@ -20,17 +21,35 @@
 
 }
 
-#enter-button {
+#job-header {
+    display: flex;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 0.5em;
+    /*font-size: ;*/
+}
+
+
+
+#contact-button {
     /*justify-content: center;*/
     display: flex;
     justify-content: center;
-    margin: 1em auto 30em auto;
+    margin: 3em auto 30em auto;
+    background-color: aliceblue;
+    width: fit-content;
+    padding: 1em;
 
 }
 
 #audio {
     display: none;
     align-items: flex-end;
+}
 
 
+#background {
+    background-color: lightgray;
 }
